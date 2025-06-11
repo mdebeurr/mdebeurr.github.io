@@ -180,7 +180,7 @@ p {
 
 @keyframes fadeIn {
     from {
-        opacity: 0;
+        opacity: 1;
     }
 
     to {
@@ -279,21 +279,23 @@ p {
     align-items: center;
     font-family: Arial, "Calisto-MT";
     padding-top: 1rem;
-    font-size: 14px;
+    font-size: 20px;
+    color: gray;
     height: 4rem;
     vertical-align: middle;
 }
 
 .thumbnail-integrated-link {
-    font-family: Arial, "Calisto-MT";
+    font-family: "Calisto-MT";
     /* font-style: italic; */
-    font-size: 12px;
-    letter-spacing: 0.05rem;
-    color: #19222B;
-    /* color: gray; */
+    font-size: 14px;
+    letter-spacing: 0.03rem;
+    /* color: #19222B; */
+    color: gray;
     /* text-decoration: None; */
     transition: 0.2s ease;
-    border-bottom: 0.3px solid gray;
+    border-bottom: 1px solid transparent;
+    margin-left: 0.5rem;
 }
 
 .thumbnail-integrated-link:hover {
@@ -303,6 +305,8 @@ p {
 }
 
 .thumbnail-phd,
+.thumbnail-helicopter1,
+.thumbnail-helicopter2,
 .thumbnail-photo-description {
     margin-left: 5rem;
     padding-bottom: 1rem;
@@ -312,6 +316,14 @@ p {
     font-size: 14px;
 }
 
+.thumbnail-helicopter1 {
+    width: 100px;
+}
+
+.thumbnail-helicopter2 {
+    width: 200px;
+    margin-left: 0;
+}
 
 .timeline-photos {
     display: flex;
